@@ -22,6 +22,7 @@ Le projet consiste simplement à lui poser la question "Veux tu être ma valenti
                 /MonsieurLaDoulaise-Regular.ttf
             /css/ 
                 /style.css
+                /index.css
                 /yes.css
             /js/ 
                 /main.js

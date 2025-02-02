@@ -1,0 +1,25 @@
+/* Ce fichier CSS vide est utilisé pour styliser la page HTML index.html*/
+.buttons {
+    margin-top: 20px;
+}
+
+.yes {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.no {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
