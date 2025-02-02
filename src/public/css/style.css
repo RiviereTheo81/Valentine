@@ -1,64 +1,42 @@
+/* Ce fichier CSS est utilisé pour styliser les deux pages HTML */
+
 /* Définit la police personnalisée */
 @font-face {
-  font-family: 'Doulaise';
-  src: url(../font/MonsieurLaDoulaise-Regular.ttf);
+    font-family: 'Doulaise';
+    src: url(../font/MonsieurLaDoulaise-Regular.ttf);
 }
 
+/* Définit le style du contenu en général */
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  background-color: #000000;
-  font-family: 'Doulaise';
-  flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+    font-family: 'Doulaise';
+    flex-direction: column;
 }
 
 .container {
-  text-align: center;
-  border: 5px solid red;
-  border-radius: 20px;
-  padding: 20px;
-  box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
-  text-align: center;
-  color: red;
-  background-color: #ffe6e6;
+    text-align: center;
+    border: 0.3em solid red;
+    border-radius: 2em;
+    padding: 5em;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
+    text-align: center;
+    color: red;
+    background-color: #ffe6e6;
 }
 
 h1 {
-  font-size: 4em;
-  color: #d32f2f;
-}
-
-.buttons {
-  margin-top: 20px;
-}
-
-.yes {
-  font-size: 1.5em;
-  padding: 10px 20px;
-  margin-right: 10px;
-  background-color: #4caf50;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.no {
-  font-size: 1.5em;
-  padding: 10px 20px;
-  background-color: #f44336;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+    font-size: 4em;
+    color: #d32f2f;
 }
 
 .gif img {
-  max-width: 60%;
-  height: auto;
-  border-radius: 10px;
-  margin-top: 20px;
+    max-width: 60%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
 }
