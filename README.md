@@ -16,10 +16,10 @@ Le projet consiste simplement à lui poser la question "Veux tu être ma valenti
         /public/
             /assets/ 
                 /imgs/
-                   /cactus.webp
-                   /seals.gif
+                   /love.gif
+                   /puppy.gif
             /fonts/
-                /fa-brands-400.ttf
+                /MonsieurLaDoulaise-Regular.ttf
             /css/ 
                 /style.css
                 /yes.css
