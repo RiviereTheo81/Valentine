@@ -1,0 +1,39 @@
+/* Définit la police personnalisée */
+@font-face {
+    font-family: 'Doulaise';
+    src: url(../font/MonsieurLaDoulaise-Regular.ttf);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+    font-family: 'Doulaise';
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+    border: 5px solid red;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.6);
+    text-align: center;
+    color: red;
+    background-color: #ffe6e6;
+
+}
+
+.header_text {
+    font-size: 3em;
+    color: #d32f2f;
+}
+
+.gif_container img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
